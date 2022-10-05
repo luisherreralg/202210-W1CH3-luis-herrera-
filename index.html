@@ -1,25 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ahorramenos - Lista</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <header>
-      <nav>
+    <main>
+      <header>
+        <nav>
+          <div>
+            <h1>Lista de la compra</h1>
+          </div>
+          <div>
+            <ul>
+              <li><h2>Principal</h2></li>
+              <li><h2>Lista</h2></li>
+              <li><h2>Acerca de</h2></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <img src="./images/plus.png" alt="Imagen añadir" />
+        <h3>2/3 Comprados</h3>
+      </section>
+      <section>
         <div>
-          <h1>Lista de la compra</h1>
+          <ul>
+            <li>
+              <input type="checkbox" id="pan" /> <label for="pan">Pan</label>
+            </li>
+            <li>
+              <input type="checkbox" id="azucar" />
+              <label for="azucar">Azúcar</label>
+            </li>
+            <li>
+              <input type="checkbox" id="leche" />
+              <label for="leche">Leche</label>
+            </li>
+          </ul>
         </div>
         <div>
-          <h2>Principal</h2>
-          <h2>Lista</h2>
-          <h2>Acerca de</h2>
+          <ul>
+            <li>0.75€ <img src="./images/x.png" alt="Equis" /></li>
+            <li><img src="./images/x.png" alt="Equis" /></li>
+            <li>1.20€ <img src="./images/x.png" alt="Equis" /></li>
+          </ul>
         </div>
-      </nav>
-    </header>
-
-    <section></section>
+      </section>
+      <section>
+        <h3>1.95€</h3>
+      </section>
+    </main>
+    <footer>
+      <img src="./images/cat.png" alt="" />
+    </footer>
   </body>
 </html>
