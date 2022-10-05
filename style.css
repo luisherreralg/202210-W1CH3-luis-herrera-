@@ -94,6 +94,10 @@ header nav ul {
   list-style: none;
 }
 
+header nav ul li {
+  font-size: 1em;
+}
+
 section:nth-of-type(1) {
   background-color: #d09d72;
   display: flex;

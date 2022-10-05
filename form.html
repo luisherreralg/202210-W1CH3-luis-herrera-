@@ -1,10 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ahorramenos - Formulario</title>
+    <link rel="stylesheet" href="./form.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <header>
+        <nav>
+          <div>
+            <h1>Lista de la compra</h1>
+          </div>
+          <div>
+            <ul>
+              <li><h2>Principal</h2></li>
+              <li><h2>Lista</h2></li>
+              <li><h2>Acerca de</h2></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section>
+        <img
+          src="./images/minus.png"
+          alt="Imagen añadir"
+          width="35px"
+          height="35px"
+        />
+        <h3>2/3 Comprados</h3>
+      </section>
+      <section>
+        <h2>Editar artículo</h2>
+        <form>
+          <label for="user">Nombre</label>
+          <input type="text" name="user" id="user" />
+          <label for="price">Precio</label>
+          <input type="number" name="price" id="price" />
+          <button>Modificar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <img
+        src="./images/cat.png"
+        alt="Logo de un gato triste"
+        width="100px"
+        height="100px"
+      />
+    </footer>
+  </body>
 </html>
