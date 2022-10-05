@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit&display=swap");
+
+* {
+  box-sizing: border-box;
+  font-family: "Kanit", sans-serif;
+  color: #222421;
+}
 body {
   margin: 0;
   background-color: #d1bead;
@@ -15,9 +22,28 @@ header nav {
   margin: 0 2em;
 }
 
-/* header nav div:last-child {
-  background-color: green;
-} */
+h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+h2 {
+  font-weight: lighter;
+}
+h3 {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+li {
+  font-size: 1.5em;
+}
+
+body section:nth-of-type(1) h3 {
+  font-size: 2.5em;
+  margin: 0;
+  font-weight: lighter;
+}
 
 img {
   width: 35px;
@@ -36,12 +62,25 @@ body section:nth-of-type(1) {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 1.5em;
+  padding: 1em 1.5em;
 }
 
 body section:nth-of-type(2) {
   background-color: #d1bead;
   border-bottom: 0.1em solid #54198d;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+body section:nth-of-type(3) {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 1em;
+}
+
+nav div:nth-of-type(2) ul li:nth-of-type(2) h2 {
+  font-weight: bold;
 }
 
 footer {
