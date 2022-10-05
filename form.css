@@ -47,12 +47,6 @@ img {
   object-fit: cover;
 }
 
-footer img {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-}
-
 header nav ul {
   display: flex;
   gap: 2em;
